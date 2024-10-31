@@ -64,7 +64,7 @@ public class Player {
 
     public int rollDice() {
         Cup cup = Cup.getInstance();
-        System.out.println("주사위를 무작위로 굴립니다.");
+        System.out.println("주사위를 굴립니다.");
         cup.roll();
         return cup.getTotal();
     }
